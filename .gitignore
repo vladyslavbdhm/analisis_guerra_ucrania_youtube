@@ -22,3 +22,7 @@ logs/
 
 # modelos binarios (si no los querés en git normal)
 models/
+
+# Configuraciones de VSCode
+.vscode/
+notebooks/azure/config.json
