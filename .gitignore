@@ -1,0 +1,24 @@
+# Entorno virtual
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+
+# Variables de entorno
+.env
+.env.*
+
+# data/artifacts pesados
+data/
+logs/
+
+# modelos binarios (si no los querés en git normal)
+models/
