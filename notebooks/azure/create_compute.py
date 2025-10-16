@@ -5,7 +5,7 @@ from azure.identity import DefaultAzureCredential
 
 ml = MLClient.from_config(credential=DefaultAzureCredential())
 compute = AmlCompute(
-    name="gpu-t4",        # nombre que usarás en los jobs
+    name="gpu-t4",       
     size="Standard_NC4as_T4_v3",
     min_instances=0,
     max_instances=1,

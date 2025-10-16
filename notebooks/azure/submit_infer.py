@@ -18,9 +18,7 @@ job = command(
     inputs={
         "full": ml.data.get(name="yt-comments-300k", version="1"),
         "model_dir": "azureml://datastores/workspaceartifactstore/paths/yt-models/tf_distilmbert_stance_export"
-        # ↑ Alternativas:
-        # 1) Si el modelo quedó en 'outputs' del job de train, puedes usar 'ml_client.jobs.download' y re-subirlo como Data asset.
-        # 2) O empaqueta tu carpeta local en el repo y referencia 'src/...' (menos limpio).
+
     },
     environment="tf215-gpu-youtube@latest",
     compute="gpu-t4",
