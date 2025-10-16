@@ -31,11 +31,8 @@ analisis_guerra_ucrania_youtube/
 │
 ├── reports/                         # Dashboards y resultados finales (Power BI, figuras, etc.)
 │
-├── src/                             # Código fuente reutilizable
-│   ├── youtube_api.py               # Extracción de videos y comentarios vía YouTube Data API
-│   ├── preprocessing.py             # Limpieza, normalización y detección de idioma
-│   ├── classification.py            # Clasificación de comentarios (DistilBERT + reglas híbridas)
-│   └── utils.py                     # Funciones auxiliares y soporte general
+├── src/                             # Archivos de apoyo visual y configuración de Power BI
+│   └── Colours Light Powerbi.json   # Paleta de colores personalizada usada en el dashboard
 │
 ├── .env                             # Variables de entorno locales (no incluidas en el repositorio)
 ├── .gitignore                       # Archivos y carpetas excluidas de control de versiones
