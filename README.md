@@ -22,11 +22,11 @@ analisis_guerra_ucrania_youtube/
 │   └── tf_distilmlbert_stance_export/
 │
 ├── notebooks/
-│   ├── 01_YouTube_2024_Ukraine_data_extracting_small.ipynb
-│   ├── 02_EDA_comments_small.ipynb
-│   ├── 03_comments_classifications_small.ipynb
-│   ├── 04_final_classification_core_small.ipynb
-│   ├── 05_comments_classifications_small.ipynb
+│   ├── 01_YouTube_2024_Ukraine_data_extracting.ipynb
+│   ├── 02_EDA_comments.ipynb
+│   ├── 03_sample_comments_classifications.ipynb
+│   ├── 04_final_classification_core.ipynb
+│   ├── 05_master_dataset_enrichment.ipynb
 │   └── azure/                       # Notebooks de prueba inicial (no funcionales en esta versión)
 │
 ├── reports/                         # Dashboards y resultados finales (Power BI, figuras, etc.)
