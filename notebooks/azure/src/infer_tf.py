@@ -21,7 +21,7 @@ def clean_text(s):
     s = re.sub(r"[^A-Za-zÀ-ÿ0-9\s]"," ",s); s = re.sub(r"\s+"," ",s).strip().lower()
     return s
 
-# ——— tus reglas rápidas (puedes pegar aquí tu rule_classifier exacta) ———
+# ———————————————————————————————————————————————————————————————
 PRAISE = ["buen canal","buen análisis","buen analisis","me gusta el canal","excelente video","gran resumen","muy claro","te felicito","buen contenido","gran trabajo"]
 ANTI_OCC = ["otan","cnn","occidente","eeuu","estados unidos","propaganda occidental","ue propaganda","nato"]
 ANTI_RUS = ["putin asesino","dictador","rusia invasora","invasion rusa","propaganda rusa","kremlin miente","criminal de guerra"]
@@ -112,4 +112,4 @@ for df_part in pd.read_csv(args.input_path, chunksize=args.chunk_rows):
         print(f"[LOG] Procesadas {processed:,} filas → {args.out_csv}")
         milestone += 50_000
 
-print(f"✅ FIN. CSV en {args.out_csv}")
+print(f"FIN. CSV en {args.out_csv}")

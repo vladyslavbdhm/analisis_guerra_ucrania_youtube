@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 # ====== Args ======
 p = argparse.ArgumentParser()
 p.add_argument("--train_path", type=str, required=True)  # data asset (9k xlsx o csv)
-p.add_argument("--output_dir", type=str, default="outputs")  # AML sube 'outputs' al run
+p.add_argument("--output_dir", type=str, default="outputs")  # carpeta output
 p.add_argument("--epochs", type=int, default=5)
 p.add_argument("--batch_size", type=int, default=24)
 p.add_argument("--max_len", type=int, default=128)
@@ -61,7 +61,7 @@ model = TFAutoModelForSequenceClassification.from_pretrained(
     MODEL_NAME, num_labels=len(LABELS), id2label=ID2LABEL, label2id=LABEL2ID
 )
 
-# Warm-up 1 epoch congelado (acelera), luego fine-tune
+# ====== Train ======
 try:
     model.distilbert.trainable = False
 except:
@@ -96,4 +96,4 @@ with open(os.path.join(args.output_dir,"val_report.txt"),"w",encoding="utf-8") a
 save_dir = os.path.join(args.output_dir, "tf_distilmbert_stance_export")
 model.save_pretrained(save_dir)
 tok.save_pretrained(save_dir)
-print("✅ saved to", save_dir)
+print("saved to", save_dir)
