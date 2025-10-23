@@ -1,0 +1,12 @@
+﻿evento,evento_fecha,relacion_evento,sub_tipo_evento,tipo_evento
+Bombardeo en mercado de Donetsk (civiles muertos),2024-01-21 00:00:00+00:00,militar,simbolico,pro-ruso
+Muerte de Alexei Navalny en prisión,2024-02-16 00:00:00+00:00,politico,simbolico,pro-ucraniano
+Caída de Avdiivka,2024-02-18 00:00:00+00:00,militar,simbolico,pro-ruso
+Paquete de ayuda de EE. UU. (61 mil millones USD),2024-04-20 00:00:00+00:00,geopolitico,estrategico,pro-ucraniano
+Ofensiva rusa en el óblast de Járkov,2024-05-10 00:00:00+00:00,militar,estrategico,pro-ruso
+Ataque ruso a hospital infantil en Kiev (Okhmatdyt),2024-07-08 00:00:00+00:00,militar,simbolico,pro-ucraniano
+Incursión ucraniana en región rusa de Kursk,2024-08-06 00:00:00+00:00,militar,estrategico,pro-ucraniano
+Toma de Vuhledar (Donetsk),2024-10-02 00:00:00+00:00,militar,estrategico,pro-ruso
+Mes de mayores avances rusos (~200 km²),2024-10-25 00:00:00+00:00,militar,estrategico,pro-ruso
+Ataque masivo con drones ucranianos sobre Moscú,2024-11-10 00:00:00+00:00,militar,simbolico,pro-ucraniano
+Caída del régimen sirio (Assad huye a Moscú),2024-12-08 00:00:00+00:00,geopolitico,simbolico,pro-ucraniano
